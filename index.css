@@ -3,6 +3,16 @@
   margin: 0px;
   background: hotpink;
 }
+.main_heading {
+  height: 100px;
+  font-size: x-large;
+  text-align: center;
+}
 body {
   font-family: "Audiowide", sans-serif;
+}
+h2 {
+  font-size: large;
+
+  background-color: darkorange;
 }
