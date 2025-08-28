@@ -1,18 +1,66 @@
 * {
   padding: 0px;
   margin: 0px;
-  background: hotpink;
+  box-sizing: border-box;
 }
 .main_heading {
   height: 100px;
   font-size: x-large;
   text-align: center;
+  margin-bottom: 20px;
 }
 body {
+  background: hotpink;
   font-family: "Audiowide", sans-serif;
+  line-height: 1.6;
 }
 h2 {
   font-size: large;
 
   background-color: darkorange;
+}
+p {
+  font-size: larger;
+}
+h3 {
+  font-size: large;
+  background-color: darkorange;
+}
+#cooked {
+  margin: 30px;
+  font-size: larger;
+}
+#Beverages {
+  margin: 30px;
+  font-size: larger;
+}
+#Special_offers {
+  margin: 30px;
+  font-size: x-large;
+  background-color: gold;
+  padding: 15px;
+  width: 400px;
+  border-radius: 8px;
+}
+h4 {
+  font-size: xx-large;
+  font-family: monospace;
+  margin-bottom: 10px;
+}
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+li:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.02);
+}
+.price {
+  font-weight: bold;
+  color: #27ae60;
 }
